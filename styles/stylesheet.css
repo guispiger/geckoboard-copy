@@ -1,0 +1,109 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #16113a;
+}
+
+.navbar .nav-link, footer .container a{
+    color: white;
+}
+
+body a:hover{
+    color: #0fd355;
+}
+
+.navbar .nav-link:hover{
+    color: #0fd355;
+}
+
+.container-fluid{
+    max-width: 1920px;
+}
+
+.container-fluid button{
+    color: #16113a;
+    background-color: #0fd355;
+    border-color: #0fd355;
+}
+
+.navbar .rounded-pill{
+    width: 8em;
+}
+
+#linkHome{
+    color: #0fd355;
+}
+
+#login{
+    text-decoration: underline;
+}
+
+body p, body h2, body h3, body a{
+    color: #161139;
+}
+
+#apresentacao h2{
+    font-size: 3.5em;
+}
+
+#apresentacao p{
+    font-size: 1.5em;
+}
+
+
+#apresentacao img {
+    width: 100em;
+}
+
+#apresentacao .catchphrase{
+    font-size: 3em;
+}
+
+#diferenciais, #background-modelos {
+    background-color: #f8f8f8;
+    padding: 10em 0 10em 10em;
+    border-radius: 100em / 0 0 25em 25em;
+}
+
+.btn-lg {
+    width: 12em;
+    height: 2.5em;
+}
+
+#quotes{
+    width: 11em;
+    height: 6em;
+    left: 1.5em;
+    top: -4em
+}
+
+#background-modelos button:focus{
+    background-color: #01d1ff;
+    border-radius: 3em;
+}
+
+
+#background-modelos button{
+    background-color: transparent;
+    color: #16113a;
+}
+
+#modelos{
+    background-color: #161139;
+}
+
+footer{
+    background-color: #161139;
+}
+
+footer .icons{
+    background-color: #2c2376;
+    border-radius: 0.5em;
+
+}
+
+footer .icons:hover{
+    background-color: #474174;
+}
