@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>geckoboard</title>
+    <link href="styles/stylesheet.css" rel="stylesheet">
+    <link href="styles/bootstrap5-2-0.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+  <body>
+
+    <!--menu-->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid row mx-auto">
+            <a class="navbar-brand fw-bolder fs-1 col-2 text-center" id="linkHome" href="#">
+              <img src="img/logo.png" class="img-fluid" alt="logo-geckoboard">
+            </a>
+  
+            <button class="navbar-toggler col-1" type="button" data-bs-toggle="collapse" data-bs-target="#barraTopo" aria-controls="barraTopo" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse fw-bolder col-6 offset-1" id="barraTopo">
+              <ul class="navbar-nav mb-2 mb-lg-0 fs-5">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Product
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Product1</a></li>
+                    <li><a class="dropdown-item" href="#">Product2</a></li>
+                    <li><a class="dropdown-item" href="#">Product3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3" aria-current="page" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Best practice
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Best Practice 1</a></li>
+                    <li><a class="dropdown-item" href="#">Best Practice 2</a></li>
+                    <li><a class="dropdown-item" href="#">Best Practice 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dashboard examples
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Example1</a></li>
+                    <li><a class="dropdown-item" href="#">Example2</a></li>
+                    <li><a class="dropdown-item" href="#">Example3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Company
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Work here</a></li>
+                  </ul>
+                </li>                
+              </ul>
+            </div>
+  
+            <ul class="navbar-nav ps-5 mb-2 mb-lg-0 col-2 offset-1 fs-5 fw-bolder">
+              <li class="nav-item my-auto">
+                <a class="nav-link text-nowrap" id="login" href="#">Log in</a>
+              </li>
+              <li class="nav-item my-auto">
+                <button type="button" class="btn btn-success rounded-pill fw-bold">Sign up</button>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+   
+
+    <main class="container-fluid px-0 mx-0">  
+        <!--apresentacao-->
+      <div id="apresentacao" class="mt-5 pt-5 row container mx-auto">
+        <div class="col-5 ps-5 my-auto">
+          <h2 class="fw-bold">Data dashboards people actualy look at</h2>
+          <p class="fw-light">Easily share your key data, metrics and KPIs in a clear, compeling way.</p>
+          <button class="btn btn-success btn-lg rounded-pill fw-bold fs-4 mt-4" type="button">Sign up for free</button>
+        </div>
+
+        <div class="col-7">
+          <img src="img/presentation.png" class="img-fluid" alt="apresentacao">
+        </div>
+
+        <div class="col-12 text-center my-5 py-5">
+          <p class="fw-bold catchphrase">Trusted by 1000s of innovative organizations</p>
+        </div>
+      </div>
+
+
+      <!--examplos-->
+      <div id="exemplo" class="row mb-5 pb-5 container mx-auto">
+        <div class="col-2 offset-1">
+          <img src="img/airbnb.png" class="img-fluid" alt="airbnb">
+        </div>
+        <div class="col-2">
+          <img src="img/monday.png" class="img-fluid" alt="monday">
+        </div>
+        <div class="col-2">
+          <img src="img/buzzsumo.png" class="img-fluid" alt="buzzsumo">
+        </div>
+        <div class="col-2">
+          <img src="img/candagoose.png" class="img-fluid" alt="candagoose">
+        </div>
+        <div class="col-2">
+          <img src="img/hellofresh.png" class="img-fluid" alt="hellofresh">
+        </div>
+      </div>
+
+
+      <!--diferenciais-->
+      <div id="diferenciais" class="mb-5" >
+        <div class="container mx-auto">
+          <div class="row offset-1 mb-5 pb-5">
+            <div class="col-6 mx-3">
+              <h3 class="fs-3 fw-bold mb-5">Make your data easy to understand</h3>
+              <p class="fs-6 lh-lg">You've got data - now it's time to share it with other. Geckoboard helps you streamline data from spreadsheets, databases and other tools, and present it in the clearest possible way.</p>
+              <a class="fs-5 fw-bold text-decoration-none" href="#">Expore our data sources 
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#16113a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+            <div class="col-3">
+              <img src="img/make-data-easy.png" class="img-fluid" alt="make-data-easy">
+            </div>
+            
+          </div>
+          <div class="row offset-1 mb-5 pb-5">
+            <div class="col-6 mx-3">
+              <h3 class="fs-3 fw-bold mb-5">Surface real-time metrics</h3>
+              <p class="fs-6 lh-lg">Help your team undestand and improve their performance by making real-time metrics easy to see throughout the day. With over 60 integrations, it's easy to create live dashboards that help your team see the impact of their work instantly and course-correct indenpendently.</p>
+            </div>
+            <div class="col-3">
+              <img src="img/real-time-metrics.png" class="img-fluid" alt="real-time-metrics">
+            </div>
+          </div>
+          <div class="row offset-1 mb-5 pb-5">
+            <div class="col-6 mx-3">
+              <h3 class="fs-3 fw-bold mb-5">Bring KPIs together</h3>
+              <p class="fs-6 lh-lg">Keep everyone in your organization up to speed with what's going on across the business and show progress towards high-level objectives, with an unmissable summary of KPIs and company goals.</p>
+            </div>
+            <div class="col-3">
+              <img src="img/keep-kpis-togeter.png" class="img-fluid" alt="keep-kpis-togeter">
+            </div>
+            
+          </div>
+          <div class="row offset-2 position-relative">
+            <img src="img/quotes.png" class="position-absolute" id="quotes" alt="quotes">
+            <div class="col-8">
+              <div class="bg-body row border border-4 border-dark p-5 rounded-4">
+                <div class="col-10 fs-6">
+                  <p class="fst-italic">At a glance, everione in our organization can instantly see how we're doing. And looks fantastic - large, easy to read, and intuitive!</p>
+                  <p><span><strong>Mike Johnson</strong> President/COO at Locus Robotics</span></p>
+                </div>
+                <div class="col-2">
+                  <img src="img/johnson.png" class="img-fluid" alt="Mike-Johnson">
+                </div>       
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--apresentacao-video-->
+      <div id="apresentacao-video" class="text-center row my-5 py-5 container mx-auto">
+        <h3 class="fs-1 fw-bolder mt-5 pt-5 mb-4 pb-3">You'll be up and running in minutes</h3>
+        <div class="col-2 my-auto">
+          <img src="img/left-video.png" class="img-fluid" alt="borda-esquerda-video">
+        </div>
+      <div class="col-8">
+        <img src="img/video-apresentacao.png" class="img-fluid" alt="video-apresentacao">
+      </div>
+      <div class="col-2 my-auto">
+        <img src="img/right-video.png" class="img-fluid" alt="borda-direita-video">
+      </div>
+      </div>
+
+      <!--recursos-->
+      <div class="my-5 py5 row  container mx-auto">
+        <h3 class="fs-1 fw-bolder text-center col-12">Build an share great looking dashboards, without the hassle</h3>
+
+        <div class="col-6 row mt-5 pt-5">
+          <div class="col-4 text-end">
+            <img src="img/60datasources.png" class="img-fluid" alt="60plus-datasources">
+          </div>
+          <div class="col-8 fs-5 lh-lg">
+            <p><strong>60+ data sources</strong></p>
+            <p>Pre-build integrations make visualising data from business tools effortless.</p>
+            <a class="fw-bold" href="#">Learn more</a>
+          </div>
+        </div>
+        
+        <div class="col-6 row mt-5 pt-5">
+          <div class="col-4 text-end">
+            <img src="img/quick-sharing.png" class="img-fluid" alt="quick-sharing-links">
+          </div>
+          <div class="col-8 fs-5 lh-lg">
+            <p><strong>Quick sharing links</strong></p>
+            <p>Easily share dashboardswith team mates in through email, chat, documents, or bookmark then in your browser for quick access.</p>
+            <a class="fw-bold" href="#">See an example</a>
+          </div>
+        </div>
+
+      <div class="col-6 row my-5 py-5">
+        <div class="col-4 text-end">
+          <img src="img/send-tv.png" class="img-fluid" alt="send-to-tv">
+        </div>
+        <div class="col-8 fs-5 lh-lg">
+          <p><strong>Send do TV</strong></p>
+          <p>Display your dashboards on large screens in your workspace using affordable hardware for maximum visibility</p>
+          <a class="fw-bold" href="#">How it works</a>
+        </div>
+      </div>
+
+      <div class="col-6 row my-5 py-5">
+        <div class="col-4 text-end">
+          <img src="img/send-slack.png" class="img-fluid" alt="send-to-slack">
+        </div>
+        <div class="col-8 fs-5 lh-lg">
+          <p><strong>Send do Slack</strong></p>
+          <p>Schedule automatic snapshots of your dashboard to post to Slack to ensure important KPIs an goals are never missed.</p>
+          <a class="fw-bold" href="#">How it works</a>
+        </div>
+      </div>
+
+        <button class="btn btn-lg rounded-pill fw-bolder btn-success col-2 mx-auto mb-5">View all features</button>
+      </div>
+
+      <!--modelos-->
+      <div id="modelos">
+        <div id="background-modelos" >
+          <div class="container mx-auto row">
+            <h3 class="fs-1 fw-bold text-start col-12">Popular use cases</h3>
+            <p class="fs-5 col-6 mb-5">There's no 'one dashboard fits all' with Geckoboard. Our software makes it really easy to tailor dashboards for your team.</p>
+  
+            <div class="col-12">
+              <ul class="nav nav-pills mb-3 row" id="tab-modelos" role="tablist">
+                <li class="nav-item col-3" role="presentation">
+                  <button class="nav-link active fw-bold fs-5" id="pills-bussines-overview-tab" data-bs-toggle="pill" data-bs-target="#pills-bussines-overview" type="button" role="tab" aria-controls="pills-bussines-overview" aria-selected="true">Bussines overview</button>
+                </li>
+                <li class="nav-item col-3" role="presentation">
+                  <button class="nav-link fw-bold fs-5" id="pills-campaing-performance-tab" data-bs-toggle="pill" data-bs-target="#pills-campaing-performance" type="button" role="tab" aria-controls="pills-campaing-performance" aria-selected="false">Campaign performance</button>
+                </li>
+                <li class="nav-item col-4" role="presentation">
+                  <button class="nav-link fw-bold fs-5" id="pills-goal-tracking-tab" data-bs-toggle="pill" data-bs-target="#pills-goal-tracking" type="button" role="tab" aria-controls="pills-goal-tracking" aria-selected="false">Goal tracking</button>
+                </li>
+                <li class="nav-item col-3" role="presentation">
+                  <button class="nav-link fw-bold fs-5" id="pills-customer-suport-tab" data-bs-toggle="pill" data-bs-target="#pills-customer-support" type="button" role="tab" aria-controls="pills-customer-support" aria-selected="false">Customer Support</button>
+                </li>
+                <li class="nav-item col-3" role="presentation">
+                  <button class="nav-link fw-bold fs-5" id="pills-product-monitoring-tab" data-bs-toggle="pill" data-bs-target="#pills-product-monitoring" type="button" role="tab" aria-controls="pills-product-monitoring" aria-selected="false">Product monitoring</button>
+                </li>
+                <li class="nav-item col-3">
+                  <a class="fw-bold text-decoration-none fs-5" href="#">
+                    Explore all examples
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 24 24" fill="none" stroke="#16113a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              </ul>
+              <div class="tab-content row" id="tabContent-modelo">
+                <div class="tab-pane fade show active col-10" id="pills-bussines-overview" role="tabpanel" aria-labelledby="pills-bussines-overview-tab" tabindex="0">
+                  <img src="img/panel-dashboard-bussines-overview.png" class="img-fluid" alt="Example-dashboard-bussines-overview">
+                </div>
+                <div class="tab-pane fade col-10" id="pills-campaing-performance" role="tabpanel" aria-labelledby="pills-campaing-performance-tab" tabindex="0">
+                  <img src="img/panel-dashboard-campaing-performance.png" class="img-fluid" alt="Example-dashboard-campaing-performance">
+                </div>
+                <div class="tab-pane fade col-10" id="pills-goal-tracking" role="tabpanel" aria-labelledby="pills-goal-tracking-tab" tabindex="0">
+                  <img src="img/panel-dashboard-goal-tracking.png" class="img-fluid" alt="Example-dashboard-goal-tracking">
+                </div>
+                <div class="tab-pane fade col-10" id="pills-customer-support" role="tabpanel" aria-labelledby="pills-customer-support-tab" tabindex="0">
+                  <img src="img/panel-dashboard-customer-support.png" class="img-fluid" alt="Example-dashboard-customer-support">
+                </div>
+                <div class="tab-pane fade col-10" id="pills-product-monitoring" role="tabpanel" aria-labelledby="pills-product-monitoring-tab" tabindex="0">
+                  <img src="img/panel-dashboard-product-monitoring.png" class="img-fluid" alt="Example-dashboard-product-monotoring">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!--rodape-->
+    <footer class="container-fluid">
+      <div class="container mx-auto row">
+        <div class="py-5 text-center col-12">
+          <h2 class="mt-5 fw-bolder fs-1 text-light">Build your first dashboard in minutes</h2>
+          <button class="btn btn-success btn-lg rounded-pill fw-bold fs-4 mt-2 mb-4" type="button">Sign up for free</button>
+          <p class="fw-bold fs-5 text-light my-5">Want to learn more? See our 
+            <a href="#">Product page</a>.
+          </p>
+        </div>
+
+        <div class="offset-1 col-1 my-auto">
+          <img src="img/copyright-logo.png" class="img-fluid" alt="copyright-logo">
+          <p class="fs-6 fw-bold text-light mt-1">&copy; 2022</p>
+        </div>
+
+        <div class="col-5 my-auto">
+          <a class="fw-bold text-decoration-none mx-2" href="#">Blog</a>
+          <a class="fw-bold text-decoration-none mx-2" href="#">Product updates</a>
+          <a class="fw-bold text-decoration-none mx-2" href="#">Support</a>
+          <a class="fw-bold text-decoration-none mx-2" href="#">Community</a>
+          <a class="fw-bold text-decoration-none mx-2" href="#">Legal</a>
+        </div>
+
+        <div class="offset-1 col-3 ps-5 d-flex my-auto">
+          <p class="fs-6 fw-bold text-light text-nowrap mx-2">Follow us</p>
+
+          <svg class="icons mx-2" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#FFF" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+
+          <svg class="icons mx-2" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#FFF" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+
+          <svg class="icons mx-2" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#FFF" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </div>
+      </div>
+    </footer>
+   
+
+    <script src="styles/bootstrap5-2-0.min.js"></script>
+  </body>
+</html>
